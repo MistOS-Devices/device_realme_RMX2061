@@ -1,26 +1,26 @@
 [
   {
-    "repository": "kernel_realme_sm7125",
+    "repository": "MistOS-Devices/kernel_realme_sm7125",
     "target_path": "kernel/realme/sm7125",
-    "remote": "pixel-devices",
-    "branch": "thirteen"
+    "remote": "github",
+    "branch": "16.0"
   },
   {
-    "repository": "device_realme_sm7125-common",
+    "repository": "MistOS-Devices/device_realme_sm7125-common",
     "target_path": "device/realme/sm7125-common",
-    "remote": "pixel-devices",
-    "branch": "thirteen"
+    "remote": "github",
+    "branch": "16.0"
   },
   {
-    "repository": "vendor_realme_RMX2061",
+    "repository": "MistOS-Devices/vendor_realme_RMX2061",
     "target_path": "vendor/realme/RMX2061",
-    "remote": "pixel-devices-blobs",
-    "branch": "thirteen"
+    "remote": "github",
+    "branch": "16.0"
   },
   {
-    "repository": "vendor_realme_sm7125-common",
+    "repository": "MistOS-Devices/vendor_realme_sm7125-common",
     "target_path": "vendor/realme/sm7125-common",
-    "remote": "pixel-devices-blobs",
-    "branch": "thirteen"
+    "remote": "github",
+    "branch": "16.0"
   }
 ]
