@@ -1,3 +1,7 @@
+# Dolby software DAP - Evolution-X-Devices/hardware_dolby cnb
+# 02d5796d3a4934c6e55ada030162f906e55ac1fd (unmodified)
+-vendor/lib64/soundfx/libswdap.so|a89b289b50a1cf531622bc8a8bb12ef54ad3e53f
+
 # ACDB Data
 odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Handset_cal.acdb
