@@ -358,7 +358,6 @@ odm/lib64/libbsproxy.so
 odm/lib64/libcdm_metrics_protos.so
 odm/lib64/libcdm_protos.so
 odm/lib64/libdav1d.so.4
-odm/lib64/libdeccfg.so
 odm/lib64/libffmpeg_utils.so
 odm/lib64/libgnustl_shared.so
 odm/lib64/libhta.so
@@ -382,7 +381,6 @@ odm/lib/libc++_shared.so
 odm/lib/libcdm_metrics_protos.so
 odm/lib/libcdm_protos.so
 odm/lib/libdav1d.so.4
-odm/lib/libdeccfg.so
 odm/lib/libffmpeg_omx.so
 odm/lib/libffmpeg_utils.so
 odm/lib/libhta.so
