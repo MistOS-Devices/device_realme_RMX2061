@@ -22,5 +22,11 @@
     "target_path": "vendor/realme/sm7125-common",
     "remote": "github",
     "branch": "17"
+  },
+  {
+    "repository": "imshah-id/realmemecammod",
+    "target_path": "vendor/realmeme_cam_mod",
+    "remote": "gitlab",
+    "branch": "6pro"
   }
 ]
