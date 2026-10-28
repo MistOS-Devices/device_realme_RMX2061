@@ -24,8 +24,8 @@
     "branch": "17"
   },
   {
-    "repository": "imshah-id/realmemecammod",
-    "target_path": "vendor/realmeme_cam_mod",
+    "repository": "imshah-id/oplus_cam",
+    "target_path": "vendor/oplus/camera",
     "remote": "gitlab",
     "branch": "6pro"
   }

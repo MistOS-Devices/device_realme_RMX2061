@@ -11,7 +11,7 @@ include device/realme/sm7125-common/BoardConfigCommon.mk
 include vendor/realme/RMX2061/BoardConfigVendor.mk
 
 # Camera app policy; retain the device's factory camera HAL and calibration.
-include vendor/realmeme_cam_mod/profiles/rmx2061/BoardConfig.mk
+include vendor/oplus/camera/profiles/rmx2061/BoardConfig.mk
 
 DEVICE_PATH := device/realme/RMX2061
 
