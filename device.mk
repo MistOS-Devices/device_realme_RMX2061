@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+include device/realme/RMX2061/configs/camera.mk
+
 # Inherit from sm7125-common
 $(call inherit-product, device/realme/sm7125-common/common.mk)
 
@@ -11,7 +13,9 @@ $(call inherit-product, device/realme/sm7125-common/common.mk)
 include vendor/realme/RMX2061/RMX2061-vendor.mk
 
 # Apply camera replacements after the stock vendor copy rules.
+ifeq ($(TARGET_INCLUDE_OPLUS_CAMERA),true)
 include vendor/oplus/camera/profiles/rmx2061/rmx2061.mk
+endif
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

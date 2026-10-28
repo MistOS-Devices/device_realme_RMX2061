@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+include device/realme/RMX2061/configs/camera.mk
+
 # Inherit from sm7125-common
 include device/realme/sm7125-common/BoardConfigCommon.mk
 
@@ -11,7 +13,9 @@ include device/realme/sm7125-common/BoardConfigCommon.mk
 include vendor/realme/RMX2061/BoardConfigVendor.mk
 
 # Camera app policy; retain the device's factory camera HAL and calibration.
+ifeq ($(TARGET_INCLUDE_OPLUS_CAMERA),true)
 include vendor/oplus/camera/profiles/rmx2061/BoardConfig.mk
+endif
 
 DEVICE_PATH := device/realme/RMX2061
 
